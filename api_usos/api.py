@@ -10,7 +10,6 @@ from core.settings import headers, PASSWORD, LOGIN
 from .response import Response
 
 
-
 def take_plan(day, days_delay):
     result = {}
     link = 'https://usos-api.wab.edu.pl/services/tt/classgroups'

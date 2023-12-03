@@ -40,10 +40,10 @@ class BotResponse():
 
     def __repr__(self):
         return f"""\n
-            Nazwa przedmiotu: {self.name}\n
-            Rodzaj: pl: {self.type_pl}, eu: {self.type_en}\n
-            Czas rozpoczęcia: {self.start_time}\n
-            Czas zakończenia: {self.end_time}\n
-            Sala: {self.room_number}\n
-            Prowadzący: {self.name_lecturer}\n
+            Name of subject: {self.name}\n
+            Type: pl: {self.type_pl}, eng: {self.type_en}\n
+            Start: {self.start_time}\n
+            End: {self.end_time}\n
+            Room: {self.room_number}\n
+            Lecturer: {self.name_lecturer}\n
         """

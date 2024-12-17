@@ -39,11 +39,4 @@ class BotResponse():
         self.name_lecturer = name_lecturer
 
     def __repr__(self):
-        return f"""\n
-            Name of subject: {self.name}\n
-            Type: pl: {self.type_pl}, eng: {self.type_en}\n
-            Start: {self.start_time}\n
-            End: {self.end_time}\n
-            Room: {self.room_number}\n
-            Lecturer: {self.name_lecturer}\n
-        """
+        return f"""Nazwa przedmiotu: {self.name}, Typ zajęć: pl: {self.type_pl}, eng: {self.type_en}, Początek w: {self.start_time}, Koniec w: {self.end_time}, Sala: {self.room_number}, Prowadzący: {self.name_lecturer}\n"""
